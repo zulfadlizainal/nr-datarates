@@ -23,7 +23,6 @@ Calculation Example.
 <br />
 <img src="https://github.com/zulfadlizainal/5G-NR-Data-Rates/blob/master/img/MaxDataRates_Example1.png" alt="Example" title="Example" width=100% height=100% />
 <br />
-<br />
 
 ### Reference Table
 
@@ -35,10 +34,10 @@ Few tables need to be referred for this calculations.
 <br />
 <img src="https://github.com/zulfadlizainal/5G-NR-Data-Rates/blob/master/img/MaxDataRates_RefTable2.png" alt="Reference Table" title="Reference Table" width=100% height=100% />
 <br />
-<br />
 
 ### Running The Program
 
+Expected results based on given input.
 <br />
 <br />
 <img src="https://github.com/zulfadlizainal/5G-NR-Data-Rates/blob/master/img/MaxDataRates_Result1.png" alt="Max Data Rates" title="Max Data Rates" width=100% height=100% />
