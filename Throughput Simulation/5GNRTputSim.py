@@ -23,10 +23,10 @@ df_rsrp['QM'] = df_rsrp['MCS'].map(df_mcs['QM'])   # Map based on Index (Index =
 df_rsrp['nre_prime'] = (12 * df_rsrp['SYM LENGTH AVG (BASED ON SLIV)']) - df_rsrp['DMRS PER PRB'] - df_rsrp['RRC OH']
 df_rsrp['nre'] = (np.minimum(156,df_rsrp['nre_prime'])) * (df_rsrp['PRB AVG (%)'] * prb_num) * df_rsrp['SLOT (%)']
 df_rsrp['ninfo'] = df_rsrp['nre'] * df_rsrp['R'] * df_rsrp['QM'] * df_rsrp['LAYER']
+df_rsrp['ninfo_prime'] = np.maximum(24, )
 
-
-print(' ')
-print('ありがとうございました！！')
-print('Download this program: https://github.com/zulfadlizainal')
-print('Author: https://www.linkedin.com/in/zulfadlizainal')
-print(' ')
+# print(' ')
+# print('ありがとうございました！！')
+# print('Download this program: https://github.com/zulfadlizainal')
+# print('Author: https://www.linkedin.com/in/zulfadlizainal')
+# print(' ')
